@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+      <div class="navbar">
+        <h1>ReWear</h1>
+        <div class="nav-icons">
+        <i class="ri-heart-line" title="Wishlist"></i>
+        <i class="ri-shopping-cart-line" title="Cart"></i>
+        <i class="ri-user-3-line" title="Profile"></i>
+        </div>
+         </div>
+
+         <div class="dashboard">
+            <h2>Hey, <span id="user-name"></span> 👋 </h2>
+            <div class="info">
+                <h3>Points Balance:</h3>
+                 <p id="user-points">20 pts</p>
+            </div>
+
+            <div class="info">
+                <h3>Email:</h3>
+                <p id="user-email">example@email.com</p>
+            </div>
+
+            <div class="info">
+                <h3>Phone:</h3>
+                <p id="user-phone">xxxxxxxxxx</p>
+            </div>
+
+        <div class="list1">
+                 <h3>Your Listings</h3>
+             <div id="user-listings" class="card-list">
+              <div class="product0">
+                <img src="https://fuaark.com/cdn/shop/files/8_8995aa09-9729-4dba-bb9e-8b6490511496.jpg?v=1724927067&width=320" alt="">
+            <h3>Tee</h3>
+            <p>Available | Size: M</p>
+            </div>
+
+           <div class="product0">
+                <img src="https://media.very.co.uk/i/very/VVEYP_SQ1_0000000067_CREAM_MDf?$pdp_300x400_x2$&fmt=jpg" alt="">
+                <h3>Trouser</h3>
+                <p>Available | Size: M</p>
+            </div>
+            </div>
+            </div>
+
+<div class="list2">
+      <h3>Your Purchases</h3>
+      <div id="user-purchases" class="card-list">
+      <div class="product0">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2022/5/IM/PA/FU/112693237/mens-bell-bottom-denim-jeans.jpeg" alt="">
+                <h3>Denim</h3>
+                <p>Available | Size: L</p>
+            </div>
+            </div>
+
+            <button id="logout-btn">Logout</button>
+            </div>
+<script src="dashboard.js"></script>
+</body>
+</html>
